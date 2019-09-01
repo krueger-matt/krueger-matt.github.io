@@ -1,0 +1,135 @@
+html 
+{
+ margin: 0 0 0 0;
+ padding: 0 0 0 0;
+}
+
+table {
+    font-family: sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 7px 2px 7px;
+    
+}
+
+th {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+tr.alt td {
+    color: #000000;
+    background-color: #999999;
+}
+
+tr:nth-child(even) {background: #CCCCCC}
+tr:nth-child(odd) {background: #BBBBBB}
+
+body 
+{	
+    background: #b0b0b0;
+    color: #000000;
+    margin-left: 20px;
+}
+
+div#main 
+{
+    background: #b0b0b0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    position: absolute;
+    left: 175px; 
+    top: 0; 
+    width: 75%;
+}
+
+h1 
+{
+    font-family: Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2
+{
+    font-family: Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 39px;
+}
+
+h3
+{
+    font-family: Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    margin-top:-30px;
+}   
+ 
+h4
+{
+    font-family: Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    margin: 0 0 0 0; 
+    padding: 5px 5px 0px 4px;
+    width: 150px;
+    text-align: center;
+}
+
+ul 
+{ 
+    font-family: Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 1em;
+    list-style: none;
+}
+
+ul.menu
+{ 
+    font-family: Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    list-style: none;
+    margin: 40px -38px;
+    text-decoration: none;
+
+}
+
+ul.meta {
+    position: fixed;
+    bottom: 0;
+    left: -15;
+    color: #ababab;
+}
+
+div#text
+{
+    font-size: .75em;
+}
+
+a
+{
+    padding-bottom: 15px;
+    font-size: 1em;
+    color: #000000;
+}
+
+a.clean
+{
+    padding-bottom: 15px;
+    font-size: 1em;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #000000;
+    text-decoration: underline;
+}

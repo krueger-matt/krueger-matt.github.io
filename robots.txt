@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /hosted/
+Disallow: /musicians.html
+Disallow: /concerts.html
